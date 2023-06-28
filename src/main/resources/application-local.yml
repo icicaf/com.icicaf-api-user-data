@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - local
+logging:
+  level:
+    org.springframework: info
+    org.hibernate: info
+server:
+  port: 8081
